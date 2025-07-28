@@ -1,0 +1,58 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.center{
+	width: 1000px;
+	margin: 0 auto;
+}
+.display-flex{
+	display: flex;
+}
+.justify_center{
+	justify-content: center;
+}
+.mt-50{
+	margin-top: 50px	;
+}
+.mt-15{
+	margin-top: 15px	;
+}
+
+button{
+	margin: 0 10px;
+}
+#content div{
+	margin: 5px;
+	padding: 10px 40px;
+	background-color: #999;
+	text-align: center;
+	border-radius: 5px;	
+}
+input[type='checkbox'] { 
+	margin-top: 10px;
+ }
+ .visible{
+	 height:100vh;
+	 width:100vw;
+	 background-color: gray;
+	 display: none;
+	 position:fixed;
+	 top:0;
+	 left: 0;
+ }
+ .slide{
+	 top: -180px;
+	 width: 100px;
+	 padding: 10px 45px;
+	 border-radius:5px;
+	 background-color:white;
+	 position: fixed;
+	 left: 50%;
+	 transition: 1s ease;
+	 transform:translate(-50%, 50%)
+ }
+
+ .border-red{
+	 border: 1px solid red;
+ }
