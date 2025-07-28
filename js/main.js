@@ -64,6 +64,3 @@ $('.no, .removeSection').on('click', function () {
     $('.visible').fadeOut(300)
     $('.slide').css('top', '-200px')
 })
-
-$('#content').sortable()
-
