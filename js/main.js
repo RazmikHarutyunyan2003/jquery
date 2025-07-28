@@ -66,3 +66,4 @@ $('.no, .removeSection').on('click', function () {
 })
 
 $('#content').sortable()
+
